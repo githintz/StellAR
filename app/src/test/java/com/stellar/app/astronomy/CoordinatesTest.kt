@@ -21,7 +21,9 @@ class CoordinatesTest {
     fun `north celestial pole altitude equals latitude`() {
         val h = Coordinates.equatorialToHorizontal(0.0, 90.0, 52.5, 123.0)
         assertEquals(52.5, h.altDeg, 1e-6)
-        assertEquals(0.0, h.azDeg, 1e-6)
+        // Due north; the angle wraps, so compare circularly (0 == 360).
+        val azError = Math.min(h.azDeg, 360.0 - h.azDeg)
+        assertEquals(0.0, azError, 1e-6)
     }
 
     @Test
