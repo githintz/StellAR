@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">StellAR</string>
+
+    <string name="chip_search">🔍 Search</string>
+    <string name="chip_constellations">✦ Constellations</string>
+    <string name="chip_labels">Aa Labels</string>
+    <string name="chip_night">🔴 Night</string>
+    <string name="chip_time">🕑 Time</string>
+
+    <string name="search_title">Search the sky</string>
+    <string name="search_hint">Star, planet or constellation…</string>
+
+    <string name="type_star">Star</string>
+    <string name="type_planet">Planet</string>
+    <string name="type_moon">Moon</string>
+    <string name="type_sun">Sun</string>
+    <string name="type_constellation">Constellation</string>
+
+    <string name="time_now">Live time</string>
+    <string name="time_minus_day">−1d</string>
+    <string name="time_minus_hour">−1h</string>
+    <string name="time_reset">Now</string>
+    <string name="time_plus_hour">+1h</string>
+    <string name="time_plus_day">+1d</string>
+
+    <string name="info_details_format">Alt %1$.1f° Az %2$.1f°\nRA %3$.2fh Dec %4$.1f°</string>
+    <string name="info_dismiss_hint">Tap card to dismiss</string>
+
+    <string name="banner_no_sensor">This device has no rotation sensor — sky tracking is unavailable.</string>
+    <string name="banner_calibrate">Compass needs calibration: wave your phone in a figure-8 motion.</string>
+    <string name="banner_no_location">Using default location (Greenwich). Waiting for GPS fix…</string>
+</resources>

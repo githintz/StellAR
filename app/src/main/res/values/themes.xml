@@ -1,0 +1,7 @@
+<resources>
+    <!-- Always dark: this is a night-sky app. -->
+    <style name="Theme.StellAR" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+</resources>
